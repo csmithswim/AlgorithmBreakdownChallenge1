@@ -22,33 +22,17 @@ public class Main {
                 System.out.println(quotient);
                 break;
 
-            case "*":
+            case "*", "X", "x":
                 Integer product = Integer.parseInt(result[0]) * Integer.parseInt(result[2]);
                 System.out.println(product);
                 break;
         }
 
-
-
-//        if (operand.equals("+")) {
-//            Integer sum = Integer.parseInt(result[0]) + Integer.parseInt(result[2]);
-//            System.out.println(sum);
-//        } else if (operand.equals("-")) {
-//            Integer difference = Integer.parseInt(result[0]) - Integer.parseInt(result[2]);
-//            System.out.println(difference);
-//        } else if (operand.equals("/")) {
-//            Integer quotient = Integer.parseInt(result[0]) - Integer.parseInt(result[2]);
-//            System.out.println(quotient);
-//
-//        } else if (operand.equals("*")) {
-//            Integer product = Integer.parseInt(result[0]) * Integer.parseInt(result[2]);
-//            System.out.println(product);
-//        }
         return 0;
     }
 
     public static void main(String[] args) {
 
-    calculate("20 * 2");
+    calculate("20 x 2");
     }
 }
